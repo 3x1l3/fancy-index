@@ -59,6 +59,10 @@ function addSearch(inputSelector) {
 
   filter('');
 }
+// Underscore string's titleize.
+function titleize(str) {
+  return str.toLowerCase().replace(/(?:^|\s|-)\S/g, c => c.toUpperCase());
+}
 
 function setTitle(selector) {
   let path = window.location.pathname.replace(/\/$/g, '');

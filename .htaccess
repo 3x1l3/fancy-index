@@ -43,15 +43,15 @@ deny from all
  # DEFAULT ICON
  DefaultIcon /fancy-index/icons/raw-svg/solid/file.svg
 
- AddIcon /fancy-index/icons/back.svg ..
+ AddIcon /fancy-index/icons/raw-svg/solid/chevron-left.svg ..
  AddIcon /fancy-index/icons/github.svg .github
  AddIcon /fancy-index/icons/nodejs.svg node_modules
- AddIcon /fancy-index/icons/raw-svg/solid/folder.svg ^^DIRECTORY^^
+ AddIcon /fancy-index/icons/raw-svg/solid/folder.svg ^^DIRECTORY^^ .core
 
  # SPECIFIC FILE ICONS
  # https://github.com/file-icons/source
  AddIcon /fancy-index/icons/raw-svg/solid/file-code.svg .c .h .mustache .rust .source .apache .yml .jade .php
- AddIcon /fancy-index/icons/file-media.svg .png .jpg .jpeg .webp .gif .bmp .mp4 .webm .ogv .mov .ico
+ AddIcon /fancy-index/icons/raw-svg/solid/image.svg .png .jpg .jpeg .webp .gif .bmp .mp4 .webm .ogv .mov .ico
  AddIcon /fancy-index/icons/file-pdf.svg .pdf
  AddIcon /fancy-index/icons/raw-svg/solid/file-alt.svg .txt README readme Procfile
  AddIcon /fancy-index/icons/raw-svg/solid/file-archive.svg .zip .z .gz .Z .tgz .tar.gz .tar .rar
@@ -59,7 +59,6 @@ deny from all
  AddIcon /fancy-index/icons/config.svg .conf .ini .cfg .prefs
  AddIcon /fancy-index/icons/less.svg .less
  AddIcon /fancy-index/icons/css.svg .css
- AddIcon /fancy-index/icons/html.svg .html .htm
  AddIcon /fancy-index/icons/coffee.svg .coffee
  AddIcon /fancy-index/icons/java.svg .java
  AddIcon /fancy-index/icons/markdown.svg .markdown .md
@@ -73,7 +72,7 @@ deny from all
  AddIcon /fancy-index/icons/composer.svg composer.json composer.lock composer.phar
  AddIcon /fancy-index/icons/bower.svg bower.json
  AddIcon /fancy-index/icons/npm.svg package.json package-lock.json
- AddIcon /fancy-index/icons/raw-svg/solid/code.svg .json
+ AddIcon /fancy-index/icons/raw-svg/solid/code.svg .json .html .htm
  AddIcon /fancy-index/icons/mustache.svg .mustache
  AddIcon /fancy-index/icons/python.svg .py
  AddIcon /fancy-index/icons/ruby.svg .rb
