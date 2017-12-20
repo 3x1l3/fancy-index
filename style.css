@@ -9,10 +9,31 @@ margin-right: 10px;
 
 }
 
+#indexlist .indexcolname {
+
+
+}
+
 .hidden {
   display: none;
 }
 
 #indexlist .indexbreakrow {
   display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .indexcollastmod, .indexcolsize, .indexcoldesc {
+    display: none;
+  }
+  .indexcolname {
+
+    width: 95%;
+
+  }
+  .indexcolicon {
+    width: 5%;
+  }
+
 }
