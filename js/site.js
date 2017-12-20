@@ -20,7 +20,7 @@ $(document).ready(function() {
 function addSearch(inputSelector) {
 
   const sortColumns = Array.from(document.querySelectorAll('thead a'));
-  const nameColumns = Array.from(document.querySelectorAll('tbody .indexcolname'));
+  const nameColumns = Array.from(document.querySelectorAll('tbody td.indexcolname'));
   const rows = nameColumns.map(({ parentNode }) => parentNode);
   const fileNames = nameColumns.map(({ textContent }) => textContent);
 
